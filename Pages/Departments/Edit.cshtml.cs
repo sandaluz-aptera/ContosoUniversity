@@ -35,7 +35,7 @@ namespace ContosoUniversity.Pages.Departments
                 return NotFound();
             }
 
-            // Use strongly typed data rather than ViewData. Small Edit
+            // Use strongly typed data rather than ViewData.
             InstructorNameSL = new SelectList(_context.Instructors,
                 "ID", "FirstMidName");
 
