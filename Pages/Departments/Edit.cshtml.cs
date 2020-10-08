@@ -55,7 +55,7 @@ namespace ContosoUniversity.Pages.Departments
 
             if (departmentToUpdate == null)
             {
-                return HandleDeletedDepartment();
+                return HandleDeletedDepartment43();
             }
 
             _context.Entry(departmentToUpdate)
