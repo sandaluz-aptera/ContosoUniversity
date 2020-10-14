@@ -1,0 +1,15 @@
+{
+    "name": "contosotest.tests",
+    "version": "1.0.0",
+    "description": "",
+    "main": "../ContosoUniversity/wwwroot/js/site.js",
+    "scripts": {
+      "test": "jasmine ContosoTest.Tests/spec/Site.spec.js"
+    },
+    "author": "",
+    "license": "ISC",
+    "dependencies": {
+      "jest": "^3.6.1"
+    }
+  }
+  
